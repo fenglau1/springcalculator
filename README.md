@@ -6,50 +6,6 @@ HelixCalc is a professional-grade, client-side web application for designing, an
 
 
 
-\## Features
-
-
-
-\*   \*\*Real-time Physics Engine:\*\* Instantly calculates Spring Rate ($k$), Solid Height, and Travel.
-
-\*   \*\*Multi-Mode Solver:\*\*
-
-&nbsp;   \*   \*Standard:\* Input Geometry $\\to$ Output Performance.
-
-&nbsp;   \*   \*Target Rate:\* Input desired $k$ $\\to$ Solve for \*\*Wire Diameter\*\* or \*\*Active Coils\*\*.
-
-\*   \*\*Reverse Engineering:\*\* Input a specific Load (Force) at a specific Length to determine the required Spring Rate, then auto-apply this to the design.
-
-\*   \*\*Visualizer:\*\* HTML5 Canvas renderer that draws the spring to scale based on your inputs.
-
-\*   \*\*Load Simulator:\*\* Drag a virtual compressor to see the Force generated at any specific length.
-
-\*   \*\*Export:\*\* Download a `.txt` report of your design.
-
-
-
-\## Installation
-
-
-
-No server, Node.js, or database is required. This is a static web application.
-
-
-
-1\.  Download the repository.
-
-2\.  Ensure you have the three files in the same folder:
-
-&nbsp;   \*   `index.html`
-
-&nbsp;   \*   `style.css`
-
-&nbsp;   \*   `script.js`
-
-3\.  Open `index.html` in any modern web browser (Chrome, Edge, Firefox, Safari).
-
-
-
 \## Usage Guide
 
 
@@ -121,4 +77,5 @@ $$ L\_s \\approx (N\_a + 2) \\cdot d $$
 \## License
 
 MIT License. Free for personal and commercial use.
+
 
